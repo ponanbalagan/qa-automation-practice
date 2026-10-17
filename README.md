@@ -1,32 +1,14 @@
 # QA Automation Practice
 
-Practice repository for browser test automation using Playwright and pytest.
+Practice repository for test automation tools, organized by tool and language.
 
-## Tech stack
-- Python 3.13
-- Playwright 1.64
-- pytest 9
+## Contents
+| Folder | Tool | Language | Status |
+|---|---|---|---|
+| python-playwright | Playwright | Python | In progress |
+| java-selenium | Selenium | Java | Planned |
+| typescript-playwright | Playwright | TypeScript | Planned |
 
-## Project structure
-python-playwright/
-├── tests/           test files, one per topic
-├── pytest.ini       pytest settings
-└── requirements.txt dependencies
-
-## Setup
-1. python -m venv venv
-2. venv\Scripts\activate
-3. pip install -r requirements.txt
-4. playwright install
-
-## Run tests
-- All tests: pytest --headed
-- One file: pytest tests\test_01_open_page.py --headed
-
-## Topics covered
-- [x] 01 Open a page
-- [ ] 02 Locators
-- [ ] 03 Actions
-- [ ] 04 Assertions
-- [ ] 05 Waits
-- [ ] 06 Login flow
+## How to use
+Each folder is a separate project with its own setup.
+Open the folder and read its README.md for setup and run steps.
