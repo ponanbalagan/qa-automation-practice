@@ -6,7 +6,7 @@ Practice repository for test automation tools, organized by tool and language.
 | Folder | Tool | Language | Status |
 |---|---|---|---|
 | python-playwright | Playwright | Python | In progress |
-| java-selenium | Selenium | Java | Planned |
+| java-selenium | Selenium | Java | In progress|
 | typescript-playwright | Playwright | TypeScript | Planned |
 
 ## How to use
